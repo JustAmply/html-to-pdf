@@ -1,5 +1,5 @@
 function convertToPdf() {
-    fetch('/html-to-pdf', {
+    fetch('/api/html-to-pdf', {
         method: 'POST',
         headers: { 'Content-Type': 'text/plain' },
         body: document.getElementById('html-input').value

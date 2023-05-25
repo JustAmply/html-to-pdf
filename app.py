@@ -8,7 +8,7 @@ app = Flask(__name__, static_url_path='/static')
 def home():
     return render_template('index.html')
 
-@app.route('/html-to-pdf', methods=['POST'])
+@app.route('/api/html-to-pdf', methods=['POST'])
 def html_to_pdf():
     html_content = request.data.decode()
     try:
