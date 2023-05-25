@@ -5,7 +5,7 @@
 `docker build -t html-to-pdf .`
 
 ## Run
-`docker run -it html-to-pdf`
+`docker run -p 5000:5000 -d html-to-pdf `
 
 ## Usage
 
