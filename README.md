@@ -1,5 +1,9 @@
+> [!WARNING]  
+> Not actively maintained. I found and use the API of [StirlingPDF](https://github.com/Frooodle/Stirling-PDF) with a similar feature as of now.
+
+
 # html-to-pdf
- Converts HTML to a PDF file
+Converts HTML to a PDF file
 
 ## Build
 `docker build -t html-to-pdf .`
